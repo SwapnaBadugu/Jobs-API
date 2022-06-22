@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Response Received Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Response recieved successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-03-15T13:51:14 EDT" name="Default suite" finished-at="2022-03-15T13:51:26 EDT" duration-ms="11442">
+    <groups>
+    </groups>
+    <test started-at="2022-03-15T13:51:14 EDT" name="Default test" finished-at="2022-03-15T13:51:26 EDT" duration-ms="11442">
+      <class name="jobsAPITesting.Jobs_Get">
+        <test-method signature="Should_Get_All_Jobs()[pri:0, instance:jobsAPITesting.Jobs_Get@66f57048]" started-at="2022-03-15T13:51:15 EDT" name="Should_Get_All_Jobs" finished-at="2022-03-15T13:51:25 EDT" duration-ms="10504" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response Received Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Should_Get_All_Jobs -->
+        <test-method signature="Should_Not_Get_All_Jobs()[pri:0, instance:jobsAPITesting.Jobs_Get@66f57048]" started-at="2022-03-15T13:51:25 EDT" name="Should_Not_Get_All_Jobs" finished-at="2022-03-15T13:51:26 EDT" duration-ms="818" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response recieved successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Should_Not_Get_All_Jobs -->
+      </class> <!-- jobsAPITesting.Jobs_Get -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
